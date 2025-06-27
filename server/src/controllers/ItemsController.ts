@@ -12,7 +12,7 @@ class ItemsController {
                 image_url: `http://192.168.11.8:3333/uploads/${item.image}`,
             };
         })
-    
+    a
         return response.json(serializedItems);
     }
 }
